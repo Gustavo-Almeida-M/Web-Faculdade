@@ -1,7 +1,4 @@
-// import Calculadora from "./components/funcoesInternas/funcoesInternas";
-//import Venda from "./components/Props/Loja";
-import Pokemon from "./components/Estados/Pokemon";
-
+import { CompA } from "./components/PropDrilling/Contexto";
 function App() {
   return (
     <div className="App">
@@ -9,7 +6,7 @@ function App() {
       {/* <Calculadora/> */}
       {/* <Venda/> */}
       <div style={{color:"blue"}}>
-        <Pokemon/>
+        <CompA/>
       </div>
     </div>
 
