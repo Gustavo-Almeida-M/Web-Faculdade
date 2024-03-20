@@ -1,4 +1,4 @@
-import { CompA } from "./components/PropDrilling/Contexto";
+import Pai from "./components/Atividade01/Questao01/Pai";
 function App() {
   return (
     <div className="App">
@@ -6,7 +6,7 @@ function App() {
       {/* <Calculadora/> */}
       {/* <Venda/> */}
       <div style={{color:"blue"}}>
-        <CompA/>
+        <Pai/>
       </div>
     </div>
 

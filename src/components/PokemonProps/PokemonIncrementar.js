@@ -1,5 +1,9 @@
 const Incrementar = () => {
+    const {setId} = useContext(PokemonContexto);
+
     return (
-        <button>Incrementar</button>
+        <button onClick={()=> {
+            setId((id) => id + 1);
+        }}>Incrementar</button>
     );
 } 
